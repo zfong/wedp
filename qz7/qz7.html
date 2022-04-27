@@ -1,0 +1,18 @@
+<html>
+  <h1>臺北市即時雨量量資料</h1> 
+  <div id="contain"></div> 
+  <script type="text/javascript" 
+  src="https://cdnjs.cloudflare.com/ajax/
+  libs/jquery/3.1.0/jquery.min.js"> 
+    var dataUrl = “https://cors-anywhere.herokuapp.com/https://
+  wic.heo.taipei/OpenData/API/Rain/Get?
+  stationNo=&loginId=open_rain&dataKey=85452C1D"; 
+  var data = $.getJSON(dataUrl); 
+  data.done( function( msg ) { 
+  // just do it 
+  }); 
+  data.fail( function( msg ) { 
+  // just do it 
+  });
+  </script>
+</html>
