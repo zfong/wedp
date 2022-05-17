@@ -1,0 +1,73 @@
+body 
+{
+    font-family: monospace;
+}
+
+ul 
+{
+    font-family: helvetica;
+}
+
+li 
+{
+    list-style: circle;
+}
+  
+.list 
+{
+  list-style: square;
+}
+  
+#msg {
+  font-family: monospace;
+}
+
+.light-theme 
+{
+    color: #000000;
+    background: #7e857e;
+}
+
+
+header{
+    background-color:#666;
+}
+nav{
+    background-color:#096;
+}
+section {
+    background-color: rgb(168, 103, 103);
+    padding:20px;
+}
+article {
+    background-color: rgb(93, 115, 160);
+    float:left;
+    width:70%;
+    height:500px;
+}
+aside {
+    background-color: rgb(161, 130, 4);
+    float:right;
+    width:30%;
+    height:500px;
+}
+footer {
+    background-color: rgb(119, 68, 119);
+    height:30px;
+    clear:both;
+}
+@media (max-width:480px){
+    *{
+        padding:10px;
+    }
+    article {
+        float:none;
+        width:auto;
+        height:auto;
+    }
+    aside {
+        float:none;
+        width:auto;
+        height:auto;
+    }
+}
